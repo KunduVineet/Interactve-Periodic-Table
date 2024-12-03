@@ -28,8 +28,8 @@ const Periodic = () => {
     // Render the grid
     let elementIndex = 0; // Index to keep track of elements
     return (
-        <div className='text-black'>
-            <h1 className='text-center text-2xl font-bold mb-4'>Periodic Table</h1>
+        <div className='text-white'>
+            <h1 className='text-center text-2xl font-bold mb-4 mt-4'>Periodic Table</h1>
             <div className='grid grid-cols-[repeat(18,_minmax(0,_1fr))] grid-rows-7 w-auto gap-2 p-5'>
                 {Array.from({ length: rows }).map((_, row) => (
                     Array.from({ length: cols }).map((_, col) => {
@@ -41,7 +41,6 @@ const Periodic = () => {
                             if (elementIndex < elements.length) {
                                 const element = elements[elementIndex];
                                 elementIndex++;
-                                console.log(`bg-${element.type.toLowerCase().replace(/ /g, '-')}`);
                                 return (
                                     <div
                                     key={`${row}-${col}`}
@@ -49,8 +48,8 @@ const Periodic = () => {
                                                transition-shadow duration-200 transform hover:scale-105
                                                 ${element.type.toLowerCase().replace(/ /g, '-') ? `bg-${element.type.toLowerCase().replace(/ /g, '-')}` : 'bg-gray-200'}`}
                                 >
-                                        <p className='text-sm top-0 left-0 text-gray-600'>{element.atomicNumber}</p>
-                                        <h2 className='text-sm font-semibold text-gray-800 mb-2'>{element.symbol}</h2>
+                                        <p className='text-sm top-0 left-0 text-white'>{element.atomicNumber}</p>
+                                        <h2 className='text-sm font-semibold text-black mb-2'>{element.symbol}</h2>
                                     </div>
                                 );
 

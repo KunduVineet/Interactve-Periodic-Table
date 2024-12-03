@@ -92,3 +92,42 @@ const elements = [
 ];
 
 export default elements;
+
+// Lanthanides data
+export const lanthanides = [
+    { atomicNumber: 57, symbol: 'La', name: 'Lanthanum', type: 'lanthanoid', electronegativity: 1.10, oxidationState: '+3' },
+    { atomicNumber: 58, symbol: 'Ce', name: 'Cerium', type: 'lanthanoid', electronegativity: 1.12, oxidationState: '+3' },
+    { atomicNumber: 59, symbol: 'Pr', name: 'Praseodymium', type: 'lanthanoid', electronegativity: 1.13, oxidationState: '+3' },
+    { atomicNumber: 60, symbol: 'Nd', name: 'Neodymium', type: 'lanthanoid', electronegativity: 1.14, oxidationState: '+3' },
+    { atomicNumber: 61, symbol: 'Pm', name: 'Promethium', type: 'lanthanoid', electronegativity: 1.13, oxidationState: '+3' },
+    { atomicNumber: 62, symbol: 'Sm', name: 'Samarium', type: 'lanthanoid', electronegativity: 1.17, oxidationState: '+3' },
+    { atomicNumber: 63, symbol: 'Eu', name: 'Europium', type: 'lanthanoid', electronegativity: 1.20, oxidationState: '+3' },
+    { atomicNumber: 64, symbol: 'Gd', name: 'Gadolinium', type: 'lanthanoid', electronegativity: 1.20, oxidationState: '+3' },
+    { atomicNumber: 65, symbol: 'Tb', name: 'Terbium', type: 'lanthanoid', electronegativity: 1.17, oxidationState: '+3' },
+    { atomicNumber: 66, symbol: 'Dy', name: 'Dysprosium', type: 'lanthanoid', electronegativity: 1.22, oxidationState: '+3' },
+    { atomicNumber: 67, symbol: 'Ho', name: 'Holmium', type: 'lanthanoid', electronegativity: 1.23, oxidationState: '+3' },
+    { atomicNumber: 68, symbol: 'Er', name: 'Erbium', type: 'lanthanoid', electronegativity: 1.24, oxidationState: '+3' },
+    { atomicNumber: 69, symbol: 'Tm', name: 'Thulium', type: 'lanthanoid', electronegativity: 1.25, oxidationState: '+3' },
+    { atomicNumber: 70, symbol: 'Yb', name: 'Ytterbium', type: 'lanthanoid', electronegativity: 1.10, oxidationState: '+3' },
+    { atomicNumber: 71, symbol: 'Lu', name: 'Lutetium', type: 'lanthanoid', electronegativity: 1.27, oxidationState: '+3' }
+];
+
+// Actinides data
+export const actinides = [
+    { atomicNumber: 89, symbol: 'Ac', name: 'Actinium', type: 'actinoid', electronegativity: 1.1, oxidationState: '+3' },
+    { atomicNumber: 90, symbol: 'Th', name: 'Thorium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+4' },
+    { atomicNumber: 91, symbol: 'Pa', name: 'Protactinium', type: 'actinoid', electronegativity: 1.5, oxidationState: '+5' },
+    { atomicNumber: 92, symbol: 'U', name: 'Uranium', type: 'actinoid', electronegativity: 1.38, oxidationState: '+6' },
+    { atomicNumber: 93, symbol: 'Np', name: 'Neptunium', type: 'actinoid', electronegativity: 1.36, oxidationState: '+5' },
+    { atomicNumber: 94, symbol: 'Pu', name: 'Plutonium', type: 'actinoid', electronegativity: 1.28, oxidationState: '+4' },
+    { atomicNumber: 95, symbol: 'Am', name: 'Americium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+3' },
+    { atomicNumber: 96, symbol: 'Cm', name: 'Curium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+3' },
+    { atomicNumber: 97, symbol: 'Bk', name: 'Berkelium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+3' },
+    { atomicNumber: 98, symbol: 'Cf', name: 'Californium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+3' },
+    { atomicNumber: 99, symbol: 'Es', name: 'Einsteinium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+3' },
+    { atomicNumber: 100, symbol: 'Fm', name: 'Fermium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+3' },
+    { atomicNumber: 101, symbol: 'Md', name: 'Mendelevium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+3' },
+    { atomicNumber: 102, symbol: 'No', name: 'Nobelium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+3' },
+    { atomicNumber: 103, symbol: 'Lr', name: 'Lawrencium', type: 'actinoid', electronegativity: 1.3, oxidationState: '+3' }
+];
+
