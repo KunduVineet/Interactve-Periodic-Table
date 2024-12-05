@@ -51,7 +51,7 @@ const Actinoids = () => {
             <div className="grid grid-cols-1 gap-2">
               <p><strong>Atomic Number:</strong> {selectedActinide.atomicNumber}</p>
               <p><strong>Symbol:</strong> {selectedActinide.symbol}</p>
-              <p><strong>Mass:</strong> {selectedActinide.type} u</p>
+              <p><strong>Type:</strong> {selectedActinide.type}</p>
               <p><strong>Electronegativity:</strong> {selectedActinide.electronegativity}</p>
               <p><strong>Oxidation State:</strong> {selectedActinide.oxidationState}</p>
               {/* Add more details as needed */}

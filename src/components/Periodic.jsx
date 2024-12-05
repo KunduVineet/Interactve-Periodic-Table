@@ -1,7 +1,17 @@
-import React from 'react';
+import React,{useState} from 'react';
 import elements from './PeriodicTable';
 
 const Periodic = () => {
+
+    const [selectedPeriodic, setselectedPeriodic] = useState(null);
+
+    const handleClick = (elements) => {
+      setselectedPeriodic(elements);
+    };
+  
+    const handleCloseDialog = () => {
+      setselectedPeriodic(null);
+    };
     // Define the size of the grid
     const rows = 7;
     const cols = 18;
@@ -39,6 +49,7 @@ const Periodic = () => {
                                                 transition-shadow duration-200 transform hover:scale-110 hover:shadow-yellow-600
                                                 ${element.type.toLowerCase().replace(/ /g, '-') ?
                                                 `bg-${element.type.toLowerCase().replace(/ /g, '-')}` : 'bg-gray-200'}`}
+                                                onClick={() => handleClick(element)}
                                         >
                                             <p className='text-sm top-0 left-0 text-white'>{element.atomicNumber}</p>
                                             <h2 className='text-sm font-semibold text-black mb-2'>{element.symbol}</h2>
@@ -53,6 +64,27 @@ const Periodic = () => {
                     ))}
                 </div>
             </div>
+            {selectedPeriodic && (
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 ">
+          <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-md sm:max-w-sm overflow-y-auto text-black">
+            <h3 className="text-2xl font-bold mb-4 text-center">{selectedPeriodic.name}</h3>
+            <div className="grid grid-cols-1 gap-2">
+              <p><strong>Atomic Number:</strong> {selectedPeriodic.atomicNumber}</p>
+              <p><strong>Symbol:</strong> {selectedPeriodic.symbol}</p>
+              <p><strong>Type:</strong> {selectedPeriodic.type}</p>
+              <p><strong>Electronegativity:</strong> {selectedPeriodic.electronegativity}</p>
+              <p><strong>Oxidation State:</strong> {selectedPeriodic.oxidationStates}</p>
+              {/* Add more details as needed */}
+            </div>
+            <button
+              className="mt-4 w-full py-2 bg-blue-500 text-white rounded hover:bg-blue-700 transition duration-200"
+              onClick={handleCloseDialog}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
         </div>
     );
 };
