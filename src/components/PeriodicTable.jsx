@@ -130,3 +130,33 @@ export const actinides = [
     { atomicNumber: 102, symbol: 'No', name: 'Nobelium', type: 'Actinoid', electronegativity: 1.3, oxidationState: '+3' },
     { atomicNumber: 103, symbol: 'Lr', name: 'Lawrencium', type: 'Actinoid', electronegativity: 1.3, oxidationState: '+3' }
 ];
+
+export const electronegativity = [
+    // Period 1
+    2.20, null, // H, He
+  
+    // Period 2
+    0.98, 1.57, 2.04, 2.55, 3.04, 3.44, 3.98, null, // Li to Ne
+  
+    // Period 3
+    0.93, 1.31, 1.61, 1.90, 2.19, 2.58, 3.16, null, // Na to Ar
+  
+    // Period 4
+    0.82, 1.00, 1.36, 1.54, 1.63, 1.66, 2.16, 1.90, 2.20, 2.28, 2.20, 1.93, 1.69, 2.02, 2.58, null, // K to Kr
+  
+    // Period 5
+    0.82, 0.95, 1.22, 1.33, 1.60, 1.65, 1.81, 1.78, 1.96, 2.05, 2.10, 2.66, 2.18, 1.93, 2.17, null, // Rb to Xe
+  
+    // Period 6
+    0.79, 0.89, 1.10, 1.12, 1.13, 1.17, 1.20, 1.20, 1.22, 1.23, 1.24, 1.25, 1.10, 2.54, 2.00, null, // Cs to Rn
+  
+    // Period 7
+    0.79, 0.89, null, null, null, null, null, null, null, null, null, null, null, null, null, null, // Fr to Og
+  
+    // Lanthanides
+    1.10, 1.12, 1.13, 1.14, 1.17, 1.20, 1.22, 1.23, 1.25, 1.10, 1.27, 1.30, 1.35, 1.38, 1.41, // La to Lu
+  
+    // Actinides
+    1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, null, null, null, null, // Ac to Lr
+  ];
+  
