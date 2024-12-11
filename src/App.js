@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="flex flex-col" style={{ position: "relative", zIndex: 0 }}>
       <JSBackground />
+      <NavBar />
       <div style={{ position: "relative", zIndex: 1 }}>
-        <NavBar />
         <Periodic />
         <Lanthanoids />
         <Actinoids />

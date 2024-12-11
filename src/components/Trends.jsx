@@ -1,13 +1,16 @@
 import React from 'react'
 import ElectronegativityGraph from "./Electronegativity";
-import { electronegativity } from "./PeriodicTable";
+import { atomicRadii, electronegativity } from "./PeriodicTable";
 import Typewriter from "typewriter-effect";
+import MeltandBoil from './MeltandBoil';
+import { meltingPoint } from './PeriodicTable';
+import AtomicRadii from './AtomicRadii';
 
 const Trends = () => {
   return (
-    <div>
-        <div className="chart-container">
-        <h2 className="text-xl sm:text-3xl md:text-2xl font-bold mb-4 text-center sm:text-left px-4 text-white">
+    <div className='h-full'>
+      <div className="chart-container">
+        <h2 className="text-xl sm:text-3xl md:text-2xl font-bold mb-4 ml-10 text-center sm:text-left px-4  text-yellow-400">
           <Typewriter
             options={{
               strings: ["Electronegativity of Elements"],
@@ -16,9 +19,37 @@ const Trends = () => {
               deleteSpeed: 50,
             }}
           />
-        </h2>{" "}
+        </h2>
         <ElectronegativityGraph data={electronegativity} />
       </div>
+      <div>
+        <h2 className="text-xl sm:text-3xl md:text-2xl font-bold mb-4 ml-10 text-center sm:text-left px-4  text-yellow-400">
+          <Typewriter
+            options={{
+              strings: ["Melting and Boiling Points"],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 50,
+            }}
+          />
+        </h2>
+        <MeltandBoil data={meltingPoint} />
+      </div>
+
+      <div className="App">
+        <h2 className="text-xl sm:text-3xl md:text-2xl font-bold mb-4 ml-10 text-center sm:text-left px-4 text-yellow-400">
+          <Typewriter
+            options={{
+              strings: ["Atomic Radius HeatMap"],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 50,
+            }}
+          />
+        </h2>      
+        <AtomicRadii atomicRadii={atomicRadii} />  
+      </div>
+
     </div>
   )
 }

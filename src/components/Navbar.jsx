@@ -1,23 +1,28 @@
-// NavBar.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   return (
-    <nav className="p-4">
+    <nav className="p-4 bg-gray-800">
       <div className="container mx-auto flex justify-between items-center">
-        <a href="/" className="text-white text-2xl font-bold">
+        <Link to="/" className="text-white text-2xl font-bold">
           MyLogo
-        </a>
+        </Link>
         <ul className="flex space-x-4">
           <li>
-            <a href="/" className="text-white hover:text-gray-400 transition duration-300">
-              Table
-            </a>
+            <Link to="/" className="text-white hover:text-gray-400 transition duration-300">
+              Home
+            </Link>
           </li>
           <li>
-            <a href="/trends" className="text-white hover:text-gray-400 transition duration-300">
+            <Link to="/lanthanoids" className="text-white hover:text-gray-400 transition duration-300">
+              Lanthanoids
+            </Link>
+          </li>
+          <li>
+            <Link to="/trends" className="text-white hover:text-gray-400 transition duration-300">
               Trends
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
