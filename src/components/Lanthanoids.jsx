@@ -30,7 +30,7 @@ const Lanthanoids = () => {
           {lanthanides.map((lanthanide) => (
             <div
               key={lanthanide.atomicNumber}
-              className="p-4 h-25 border border-gray-300 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200 transform hover:scale-110 bg-lanthanide"
+              className="p-4 h-25 border border-gray-300 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200 transform hover:shadow-white hover:scale-110 bg-lanthanide"
               onClick={() => handleClick(lanthanide)}
             >
               <p className="text-sm top-0 left-0">{lanthanide.atomicNumber}</p>

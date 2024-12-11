@@ -90,10 +90,7 @@ const elements = [
     { name: "Tennessine", symbol: "Ts", atomicNumber: 117, type: "Halogen", electronegativity: 1.3, oxidationStates: [+17] },
     { name: "Oganesson", symbol: "Og", atomicNumber: 118, type: "Noble gas", electronegativity: null, oxidationStates: [0] }
 ];
-
 export default elements;
-
-// Lanthanides data
 export const lanthanides = [
     { atomicNumber: 57, symbol: 'La', name: 'Lanthanum', type: 'Lanthanoid', electronegativity: 1.10, oxidationState: '+3' },
     { atomicNumber: 58, symbol: 'Ce', name: 'Cerium', type: 'Lanthanoid', electronegativity: 1.12, oxidationState: '+3' },
@@ -111,8 +108,6 @@ export const lanthanides = [
     { atomicNumber: 70, symbol: 'Yb', name: 'Ytterbium', type: 'Lanthanoid', electronegativity: 1.10, oxidationState: '+3' },
     { atomicNumber: 71, symbol: 'Lu', name: 'Lutetium', type: 'Lanthanoid', electronegativity: 1.27, oxidationState: '+3' }
 ];
-
-// Actinides data
 export const actinides = [
     { atomicNumber: 89, symbol: 'Ac', name: 'Actinium', type: 'Actinoid', electronegativity: 1.1, oxidationState: '+3' },
     { atomicNumber: 90, symbol: 'Th', name: 'Thorium', type: 'Actinoid', electronegativity: 1.3, oxidationState: '+4' },
@@ -130,7 +125,6 @@ export const actinides = [
     { atomicNumber: 102, symbol: 'No', name: 'Nobelium', type: 'Actinoid', electronegativity: 1.3, oxidationState: '+3' },
     { atomicNumber: 103, symbol: 'Lr', name: 'Lawrencium', type: 'Actinoid', electronegativity: 1.3, oxidationState: '+3' }
 ];
-
 export const electronegativity = [
     // Period 1
     2.20, null, // H, He
@@ -159,7 +153,6 @@ export const electronegativity = [
     // Actinides
     1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, 1.30, null, null, null, null, // Ac to Lr
 ];
-
 export const meltingPoint = [
     { atomicNumber: 1, name: "Hydrogen", meltingPoint: 14.01, boilingPoint: 20.28 },
     { atomicNumber: 2, name: "Helium", meltingPoint: null, boilingPoint: 4.22 },
@@ -280,13 +273,11 @@ export const meltingPoint = [
     { atomicNumber: 117, name: "Tennessine", meltingPoint: "Unknown", boilingPoint: "Unknown" },
     { atomicNumber: 118, name: "Oganesson", meltingPoint: "Unknown", boilingPoint: "Unknown" }
 ];
-
-
 export const ionizationData = [
     { atomicNumber: 1, name: 'Hydrogen', ionizationEnergies: [13.6, 0, 0, 0] },
     { atomicNumber: 2, name: 'Helium', ionizationEnergies: [24.6, 54.4, 0, 0] },
     { atomicNumber: 3, name: 'Lithium', ionizationEnergies: [5.4, 75.6, 122, 200] },
-    { atomicNumber: 4, name: 'Beryllium', ionizationEnergies: [9.3, 18.2, 246, 650] },
+    { atomicNumber: 4, name: 'Beryllium', ionizationEnergies: [9.3, 18.2, 246, 450] },
     { atomicNumber: 5, name: 'Boron', ionizationEnergies: [8.3, 25.9, 40.1, 63.5] },
     { atomicNumber: 6, name: 'Carbon', ionizationEnergies: [11.3, 24.4, 47.2, 71.6] },
     { atomicNumber: 7, name: 'Nitrogen', ionizationEnergies: [14.5, 29.6, 47.1, 65.2] },
@@ -402,7 +393,6 @@ export const ionizationData = [
     { atomicNumber: 117, name: 'Tennessine (Ts)', ionizationEnergies: [9.600, 18.0, 42.0, 70.0] },
     { atomicNumber: 118, name: 'Oganesson (Og)', ionizationEnergies: [9.800, 18.2, 43.0, 71.0] }
 ];
-
 export const atomicRadii = [
     { element: "H", atomicNumber: 1, radius: 53 },
     { element: "He", atomicNumber: 2, radius: 31 },
