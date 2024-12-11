@@ -24,6 +24,11 @@ const NavBar = () => {
               Trends
             </Link>
           </li>
+          <li>
+            <Link to="/quiz" className="text-white hover:text-gray-400 transition duration-300">
+              Quiz
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

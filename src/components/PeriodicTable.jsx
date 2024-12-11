@@ -432,7 +432,7 @@ export const atomicRadii = [
     { element: "Kr", atomicNumber: 36, radius: 88 },
     { element: "Rb", atomicNumber: 37, radius: 265 },
     { element: "Sr", atomicNumber: 38, radius: 219 },
-    { element: "Y",  atomicNumber: 39, radius: 212 },
+    { element: "Y", atomicNumber: 39, radius: 212 },
     { element: "Zr", atomicNumber: 40, radius: 206 },
     { element: "Nb", atomicNumber: 41, radius: 198 },
     { element: "Mo", atomicNumber: 42, radius: 190 },
@@ -446,7 +446,7 @@ export const atomicRadii = [
     { element: "Sn", atomicNumber: 50, radius: 145 },
     { element: "Sb", atomicNumber: 51, radius: 133 },
     { element: "Te", atomicNumber: 52, radius: 123 },
-    { element: "I",  atomicNumber: 53, radius: 115 },
+    { element: "I", atomicNumber: 53, radius: 115 },
     { element: "Xe", atomicNumber: 54, radius: 108 },
     { element: "Cs", atomicNumber: 55, radius: 298 },
     { element: "Ba", atomicNumber: 56, radius: 253 },
@@ -467,7 +467,7 @@ export const atomicRadii = [
     { element: "Lu", atomicNumber: 71, radius: 217 },
     { element: "Hf", atomicNumber: 72, radius: 208 },
     { element: "Ta", atomicNumber: 73, radius: 200 },
-    { element: "W",  atomicNumber: 74, radius: 193 },
+    { element: "W", atomicNumber: 74, radius: 193 },
     { element: "Re", atomicNumber: 75, radius: 188 },
     { element: "Os", atomicNumber: 76, radius: 185 },
     { element: "Ir", atomicNumber: 77, radius: 180 },
@@ -513,6 +513,586 @@ export const atomicRadii = [
     { element: "Ts", atomicNumber: 117, radius: 165 }, // Tennessine
     { element: "Og", atomicNumber: 118, radius: 157 }, // Oganesson
 ];
+
+export const quizData = {
+    easy: [
+        {
+            id: 1,
+            question: "What is the chemical symbol for Hydrogen?",
+            options: ["H", "O", "He", "N"],
+            answer: "H"
+        },
+        {
+            id: 2,
+            question: "Which element has the atomic number 1?",
+            options: ["Hydrogen", "Oxygen", "Carbon", "Nitrogen"],
+            answer: "Hydrogen"
+        },
+        {
+            id: 3,
+            question: "Which element is represented by the symbol 'O'?",
+            options: ["Oxygen", "Osmium", "Oganesson", "Opium"],
+            answer: "Oxygen"
+        },
+        {
+            id: 4,
+            question: "What is the chemical symbol for Helium?",
+            options: ["H", "He", "Li", "Be"],
+            answer: "He"
+        },
+        {
+            id: 5,
+            question: "Which element has the atomic number 2?",
+            options: ["Helium", "Hydrogen", "Lithium", "Beryllium"],
+            answer: "Helium"
+        },
+        {
+            id: 6,
+            question: "Which element is represented by the symbol 'Na'?",
+            options: ["Sodium", "Neon", "Nickel", "Noble gas"],
+            answer: "Sodium"
+        },
+        {
+            id: 7,
+            question: "Which element has the atomic number 3?",
+            options: ["Lithium", "Sodium", "Magnesium", "Potassium"],
+            answer: "Lithium"
+        },
+        {
+            id: 8,
+            question: "What is the chemical symbol for Nitrogen?",
+            options: ["N", "Ne", "Na", "Ni"],
+            answer: "N"
+        },
+        {
+            id: 9,
+            question: "Which element is represented by the symbol 'C'?",
+            options: ["Carbon", "Calcium", "Copper", "Chlorine"],
+            answer: "Carbon"
+        },
+        {
+            id: 10,
+            question: "What is the chemical symbol for Oxygen?",
+            options: ["O", "O2", "Ox", "Os"],
+            answer: "O"
+        },
+        {
+            id: 11,
+            question: "What is the atomic number of Carbon?",
+            options: [6, 12, 8, 14],
+            answer: 6
+        },
+        {
+            id: 12,
+            question: "Which element is represented by the symbol 'Ca'?",
+            options: ["Calcium", "Carbon", "Cobalt", "Chromium"],
+            answer: "Calcium"
+        },
+        {
+            id: 13,
+            question: "What is the chemical symbol for Iron?",
+            options: ["Fe", "Ir", "In", "I"],
+            answer: "Fe"
+        },
+        {
+            id: 14,
+            question: "Which element is represented by the symbol 'Mg'?",
+            options: ["Magnesium", "Manganese", "Mercury", "Molybdenum"],
+            answer: "Magnesium"
+        },
+        {
+            id: 15,
+            question: "Which element has the atomic number 10?",
+            options: ["Neon", "Nitrogen", "Noble gas", "Nihonium"],
+            answer: "Neon"
+        },
+        {
+            id: 16,
+            question: "Which element is represented by the symbol 'P'?",
+            options: ["Phosphorus", "Platinum", "Polonium", "Protactinium"],
+            answer: "Phosphorus"
+        },
+        {
+            id: 17,
+            question: "What is the atomic number of Oxygen?",
+            options: [8, 10, 6, 4],
+            answer: 8
+        },
+        {
+            id: 18,
+            question: "Which element is represented by the symbol 'K'?",
+            options: ["Potassium", "Krypton", "Kelvin", "Kali"],
+            answer: "Potassium"
+        },
+        {
+            id: 19,
+            question: "Which element has the atomic number 12?",
+            options: ["Magnesium", "Sodium", "Potassium", "Calcium"],
+            answer: "Magnesium"
+        },
+        {
+            id: 20,
+            question: "What is the chemical symbol for Neon?",
+            options: ["Ne", "Ni", "Na", "N"],
+            answer: "Ne"
+        },
+        {
+            id: 21,
+            question: "Which element has the atomic number 14?",
+            options: ["Silicon", "Carbon", "Oxygen", "Nitrogen"],
+            answer: "Silicon"
+        },
+        {
+            id: 22,
+            question: "What is the chemical symbol for Copper?",
+            options: ["Cu", "Co", "Cr", "Ca"],
+            answer: "Cu"
+        },
+        {
+            id: 23,
+            question: "What is the atomic number of Nitrogen?",
+            options: [7, 6, 8, 9],
+            answer: 7
+        },
+        {
+            id: 24,
+            question: "Which element has the symbol 'S'?",
+            options: ["Sulfur", "Silicon", "Sodium", "Scandium"],
+            answer: "Sulfur"
+        },
+        {
+            id: 25,
+            question: "Which element has the atomic number 15?",
+            options: ["Phosphorus", "Sulfur", "Silicon", "Chlorine"],
+            answer: "Phosphorus"
+        },
+        {
+            id: 26,
+            question: "What is the chemical symbol for Potassium?",
+            options: ["K", "P", "Na", "C"],
+            answer: "K"
+        },
+        {
+            id: 27,
+            question: "Which element has the symbol 'Cl'?",
+            options: ["Chlorine", "Calcium", "Chromium", "Cobalt"],
+            answer: "Chlorine"
+        },
+        {
+            id: 28,
+            question: "Which element has the atomic number 19?",
+            options: ["Potassium", "Calcium", "Magnesium", "Sodium"],
+            answer: "Potassium"
+        },
+        {
+            id: 29,
+            question: "What is the chemical symbol for Argon?",
+            options: ["Ar", "Ag", "Al", "Au"],
+            answer: "Ar"
+        },
+        {
+            id: 30,
+            question: "Which element is represented by the symbol 'Zn'?",
+            options: ["Zinc", "Zirconium", "Zodium", "Zetium"],
+            answer: "Zinc"
+        },
+        {
+            id: 31,
+            question: "What is the chemical symbol for Hydrogen?",
+            options: ["H", "O", "He", "N"],
+            answer: "H"
+        },
+        {
+            id: 32,
+            question: "Which element has the atomic number 1?",
+            options: ["Hydrogen", "Oxygen", "Carbon", "Nitrogen"],
+            answer: "Hydrogen"
+        },
+        {
+            id: 33,
+            question: "Which element is represented by the symbol 'O'?",
+            options: ["Oxygen", "Osmium", "Oganesson", "Opium"],
+            answer: "Oxygen"
+        }
+    ],
+    medium: [
+        {
+            id: 34,
+            question: "Which element is the most abundant in the Earth's crust?",
+            options: ["Oxygen", "Silicon", "Aluminum", "Iron"],
+            answer: "Oxygen"
+        },
+        {
+            id: 35,
+            question: "What is the atomic number of Neon?",
+            options: [8, 10, 12, 14],
+            answer: 10
+        },
+        {
+            id: 36,
+            question: "Which of the following elements is a transition metal?",
+            options: ["Zinc", "Carbon", "Helium", "Fluorine"],
+            answer: "Zinc"
+        },
+        {
+            id: 37,
+            question: "Which element is represented by the symbol 'Na'?",
+            options: ["Sodium", "Nitrogen", "Nickel", "Neon"],
+            answer: "Sodium"
+        },
+        {
+            id: 38,
+            question: "Which element is commonly used in the production of semiconductors?",
+            options: ["Silicon", "Iron", "Copper", "Aluminum"],
+            answer: "Silicon"
+        },
+        {
+            id: 39,
+            question: "Which of the following elements is a halogen?",
+            options: ["Chlorine", "Oxygen", "Argon", "Sodium"],
+            answer: "Chlorine"
+        },
+        {
+            id: 40,
+            question: "Which of these elements is a metalloid?",
+            options: ["Boron", "Carbon", "Helium", "Neon"],
+            answer: "Boron"
+        },
+        {
+            id: 41,
+            question: "Which element has the highest atomic weight?",
+            options: ["Uranium", "Gold", "Plutonium", "Thorium"],
+            answer: "Uranium"
+        },
+        {
+            id: 42,
+            question: "Which of the following elements is most commonly found in the human body?",
+            options: ["Oxygen", "Carbon", "Nitrogen", "Calcium"],
+            answer: "Oxygen"
+        },
+        {
+            id: 43,
+            question: "What is the atomic number of Potassium?",
+            options: [19, 20, 21, 18],
+            answer: 19
+        },
+        {
+            id: 44,
+            question: "Which element is represented by the symbol 'Au'?",
+            options: ["Silver", "Gold", "Iron", "Copper"],
+            answer: "Gold"
+        },
+        {
+            id: 45,
+            question: "Which element is found in the fourth period and is a noble gas?",
+            options: ["Argon", "Krypton", "Neon", "Xenon"],
+            answer: "Krypton"
+        },
+        {
+            id: 46,
+            question: "Which element is known as the 'King of Chemicals'?",
+            options: ["Sulfuric Acid", "Nitric Acid", "Hydrochloric Acid", "Hydrofluoric Acid"],
+            answer: "Sulfuric Acid"
+        },
+        {
+            id: 47,
+            question: "Which of these elements has a full outer electron shell?",
+            options: ["Helium", "Sodium", "Chlorine", "Calcium"],
+            answer: "Helium"
+        },
+        {
+            id: 48,
+            question: "What is the atomic number of Iron?",
+            options: [26, 28, 30, 32],
+            answer: 26
+        },
+        {
+            id: 49,
+            question: "Which element is known for its strong magnetic properties?",
+            options: ["Iron", "Copper", "Silver", "Gold"],
+            answer: "Iron"
+        },
+        {
+            id: 50,
+            question: "Which element is commonly used in the production of batteries?",
+            options: ["Lithium", "Iron", "Magnesium", "Zinc"],
+            answer: "Lithium"
+        },
+        {
+            id: 51,
+            question: "What is the atomic number of Carbon?",
+            options: [6, 12, 14, 16],
+            answer: 6
+        },
+        {
+            id: 52,
+            question: "Which element is the main component of natural gas?",
+            options: ["Methane", "Hydrogen", "Oxygen", "Carbon Dioxide"],
+            answer: "Methane"
+        },
+        {
+            id: 53,
+            question: "Which of the following elements is a noble gas?",
+            options: ["Helium", "Neon", "Argon", "All of the above"],
+            answer: "All of the above"
+        },
+        {
+            id: 54,
+            question: "Which element has the atomic number 79?",
+            options: ["Gold", "Silver", "Platinum", "Copper"],
+            answer: "Gold"
+        },
+        {
+            id: 55,
+            question: "Which element is used in the manufacturing of light bulbs?",
+            options: ["Tungsten", "Copper", "Silicon", "Iron"],
+            answer: "Tungsten"
+        },
+        {
+            id: 56,
+            question: "What is the atomic number of Calcium?",
+            options: [18, 20, 22, 24],
+            answer: 20
+        },
+        {
+            id: 57,
+            question: "Which of these elements is a gas at room temperature?",
+            options: ["Oxygen", "Mercury", "Bromine", "Sulfur"],
+            answer: "Oxygen"
+        },
+        {
+            id: 58,
+            question: "Which element is known for its role in photosynthesis?",
+            options: ["Chlorophyll", "Magnesium", "Oxygen", "Nitrogen"],
+            answer: "Magnesium"
+        },
+        {
+            id: 59,
+            question: "Which element has the atomic number 12?",
+            options: ["Magnesium", "Calcium", "Sodium", "Potassium"],
+            answer: "Magnesium"
+        },
+        {
+            id: 60,
+            question: "Which element is used as a fuel in nuclear reactors?",
+            options: ["Uranium", "Thorium", "Plutonium", "Radium"],
+            answer: "Uranium"
+        },
+        {
+            id: 61,
+            question: "What is the atomic number of Sulfur?",
+            options: [16, 18, 20, 22],
+            answer: 16
+        },
+        {
+            id: 62,
+            question: "Which element is commonly used as a catalyst in the automotive industry?",
+            options: ["Platinum", "Gold", "Silver", "Copper"],
+            answer: "Platinum"
+        },
+        {
+            id: 63,
+            question: "Which of the following elements is a noble gas?",
+            options: ["Helium", "Oxygen", "Carbon", "Nitrogen"],
+            answer: "Helium"
+        },
+        {
+            id: 64,
+            question: "What is the atomic number of Carbon?",
+            options: [6, 12, 14, 16],
+            answer: 6
+        },
+        {
+            id: 65,
+            question: "Which element is found in the second period and is a halogen?",
+            options: ["Fluorine", "Neon", "Oxygen", "Lithium"],
+            answer: "Fluorine"
+        }
+    ],    
+    hard: [
+        {
+            id: 66,
+            question: "Which element has the highest atomic number?",
+            options: ["Oganesson", "Uranium", "Neptunium", "Plutonium"],
+            answer: "Oganesson"
+        },
+        {
+            id: 67,
+            question: "Which element is named after the Greek word for 'stranger'?",
+            options: ["Xenon", "Ytterbium", "Yttrium", "Zinc"],
+            answer: "Xenon"
+        },
+        {
+            id: 68,
+            question: "Which of these elements is part of the Lanthanide series?",
+            options: ["Cerium", "Zirconium", "Gallium", "Boron"],
+            answer: "Cerium"
+        },
+        {
+            id: 69,
+            question: "What is the atomic number of Neptunium?",
+            options: [93, 94, 95, 96],
+            answer: 93
+        },
+        {
+            id: 70,
+            question: "Which element has the chemical symbol 'Pu'?",
+            options: ["Plutonium", "Polonium", "Palladium", "Phosphorus"],
+            answer: "Plutonium"
+        },
+        {
+            id: 71,
+            question: "What is the atomic mass of Thorium?",
+            options: [232.038, 238.028, 244.070, 249.070],
+            answer: 232.038
+        },
+        {
+            id: 72,
+            question: "Which element was named after the country France?",
+            options: ["Francium", "Gallium", "Polonium", "Berkeleyium"],
+            answer: "Francium"
+        },
+        {
+            id: 73,
+            question: "Which element is known as 'the element of life'?",
+            options: ["Carbon", "Oxygen", "Nitrogen", "Hydrogen"],
+            answer: "Carbon"
+        },
+        {
+            id: 74,
+            question: "What is the most reactive element in the periodic table?",
+            options: ["Fluorine", "Francium", "Cesium", "Oxygen"],
+            answer: "Fluorine"
+        },
+        {
+            id: 75,
+            question: "Which of these is a synthetic element?",
+            options: ["Plutonium", "Uranium", "Thorium", "Radon"],
+            answer: "Plutonium"
+        },
+        {
+            id: 76,
+            question: "Which element is used in nuclear reactors as a fuel?",
+            options: ["Uranium", "Lithium", "Boron", "Manganese"],
+            answer: "Uranium"
+        },
+        {
+            id: 77,
+            question: "What is the name of the element with the symbol 'Rn'?",
+            options: ["Radon", "Rhenium", "Ruthenium", "Rubidium"],
+            answer: "Radon"
+        },
+        {
+            id: 78,
+            question: "Which element has the highest electronegativity?",
+            options: ["Fluorine", "Oxygen", "Chlorine", "Nitrogen"],
+            answer: "Fluorine"
+        },
+        {
+            id: 79,
+            question: "What is the atomic number of Copernicium?",
+            options: [112, 114, 116, 118],
+            answer: 112
+        },
+        {
+            id: 80,
+            question: "Which element is named after the planet Uranus?",
+            options: ["Uranium", "Neptunium", "Plutonium", "Saturnium"],
+            answer: "Uranium"
+        },
+        {
+            id: 81,
+            question: "Which element was first synthesized in a cyclotron?",
+            options: ["Technetium", "Francium", "Plutonium", "Curium"],
+            answer: "Technetium"
+        },
+        {
+            id: 82,
+            question: "Which noble gas is used in neon signs?",
+            options: ["Neon", "Argon", "Krypton", "Helium"],
+            answer: "Neon"
+        },
+        {
+            id: 83,
+            question: "What element is the heaviest naturally occurring element?",
+            options: ["Uranium", "Thorium", "Plutonium", "Neptunium"],
+            answer: "Uranium"
+        },
+        {
+            id: 84,
+            question: "Which element has the symbol 'W'?",
+            options: ["Tungsten", "Wolfram", "Vanadium", "Magnesium"],
+            answer: "Tungsten"
+        },
+        {
+            id: 85,
+            question: "Which element was named after the scientist Marie Curie?",
+            options: ["Curium", "Polonium", "Radium", "Francium"],
+            answer: "Curium"
+        },
+        {
+            id: 86,
+            question: "What is the only metal that is liquid at room temperature?",
+            options: ["Mercury", "Gallium", "Francium", "Cesium"],
+            answer: "Mercury"
+        },
+        {
+            id: 87,
+            question: "Which element is named after the American scientist Albert Einstein?",
+            options: ["Einsteinium", "Curium", "Berkelium", "Fermium"],
+            answer: "Einsteinium"
+        },
+        {
+            id: 88,
+            question: "Which element has the highest melting point?",
+            options: ["Tungsten", "Rhenium", "Carbon", "Osmium"],
+            answer: "Tungsten"
+        },
+        {
+            id: 89,
+            question: "Which element was first isolated from the mineral pitchblende?",
+            options: ["Radium", "Polonium", "Uranium", "Beryllium"],
+            answer: "Radium"
+        },
+        {
+            id: 90,
+            question: "Which element is used in the production of semiconductors?",
+            options: ["Silicon", "Germanium", "Gallium", "Arsenic"],
+            answer: "Silicon"
+        },
+        {
+            id: 91,
+            question: "What is the only element that can form a stable bond with itself to create a molecule?",
+            options: ["Carbon", "Oxygen", "Nitrogen", "Sulfur"],
+            answer: "Carbon"
+        },
+        {
+            id: 92,
+            question: "Which element has the shortest half-life?",
+            options: ["Polonium", "Francium", "Radon", "Astatine"],
+            answer: "Francium"
+        },
+        {
+            id: 93,
+            question: "What is the atomic number of Flerovium?",
+            options: [113, 114, 115, 116],
+            answer: 114
+        },
+        {
+            id: 94,
+            question: "Which element was discovered by the scientist Lavoisier?",
+            options: ["Oxygen", "Nitrogen", "Hydrogen", "Carbon"],
+            answer: "Oxygen"
+        },
+        {
+            id: 95,
+            question: "Which element was first identified by its spectral lines?",
+            options: ["Helium", "Hydrogen", "Neon", "Oxygen"],
+            answer: "Helium"
+        }
+    ]
+    
+};
 
 
 
