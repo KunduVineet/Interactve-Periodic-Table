@@ -22,14 +22,7 @@ const NavBar = () => {
               Home
             </button>
           </li>
-          <li>
-            <button
-              onClick={() => navigate('/lanthanoids')}
-              className="text-white hover:text-gray-400 transition duration-300"
-            >
-              Lanthanoids
-            </button>
-          </li>
+          
           <li>
             <button
               onClick={() => navigate('/trends')}

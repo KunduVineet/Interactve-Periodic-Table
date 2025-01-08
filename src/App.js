@@ -8,6 +8,8 @@ import JSBackground from "./components/JSBackground";
 import Trends from "./components/Trends";
 import NavBar from "./components/Navbar";
 import Quiz from "./components/Quiz";
+import { quizData } from "./components/PeriodicTable";
+
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
         <div style={{ position: "relative", zIndex: 1 }}>
           <Routes>
             <Route path="/" element={<Periodic />} />
-            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/quiz" element={<Quiz quizData={quizData}  />} />
             <Route path="/lanthanoids" element={<Lanthanoids />} />
             <Route path="/actinoids" element={<Actinoids />} />
             <Route path="/trends" element={<Trends />} />

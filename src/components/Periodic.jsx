@@ -1,5 +1,7 @@
 import React,{useState} from 'react';
 import elements from './PeriodicTable';
+import Lanthanoids from './Lanthanoids';
+import Actinoids from './Actionoids';
 
 const Periodic = () => {
 
@@ -85,6 +87,8 @@ const Periodic = () => {
           </div>
         </div>
       )}
+      <Lanthanoids />
+      <Actinoids />
         </div>
     );
 };
