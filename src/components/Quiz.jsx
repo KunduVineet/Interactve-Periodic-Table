@@ -53,6 +53,14 @@ const Quiz = ({ quizData }) => {
     }
   };
 
+  const getResultMessage = () => {
+    if (score >= 3) {
+      return "Good Job!";
+    } else {
+      return "Better Luck Next Time!";
+    }
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-900 pt-24">
       {/* Space for the navbar */}
@@ -61,8 +69,8 @@ const Quiz = ({ quizData }) => {
       {quizFinished ? (
         <div className="text-center shadow-xl p-8 rounded-lg max-w-3xl mx-auto bg-transparent">
           <h2 className="text-3xl font-semibold text-white mb-4">Your Score: {score}/{currentQuestions.length}</h2>
-          <p className="text-xl text-white">Great job!</p>
-
+          <p className="text-xl text-white">{getResultMessage()}</p>
+          
           {/* Display the answers and their correctness */}
           <div className="mt-6">
             {currentQuestions.map((question, index) => (
