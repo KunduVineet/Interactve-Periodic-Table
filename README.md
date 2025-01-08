@@ -1,4 +1,4 @@
-# Actinoids and Periodic Table Trends Visualization
+# Periodic Table Trends Visualization
 
 This project is a comprehensive React-based application designed to visualize the properties and trends of elements from the periodic table. It specifically includes visualizations and features for actinoids, atomic radii, electronegativity, ionization energy, melting and boiling points, and a quiz feature for learning.
 
