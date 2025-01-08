@@ -1,33 +1,50 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
+  const navigate = useNavigate();
+
   return (
     <nav className="p-4 bg-gray-800">
       <div className="container mx-auto flex justify-between items-center">
-        <Link to="/" className="text-white text-2xl font-bold">
+        <button
+          onClick={() => navigate('/')}
+          className="text-white text-2xl font-bold"
+        >
           MyLogo
-        </Link>
+        </button>
         <ul className="flex space-x-4">
           <li>
-            <Link to="/" className="text-white hover:text-gray-400 transition duration-300">
+            <button
+              onClick={() => navigate('/')}
+              className="text-white hover:text-gray-400 transition duration-300"
+            >
               Home
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/lanthanoids" className="text-white hover:text-gray-400 transition duration-300">
+            <button
+              onClick={() => navigate('/lanthanoids')}
+              className="text-white hover:text-gray-400 transition duration-300"
+            >
               Lanthanoids
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/trends" className="text-white hover:text-gray-400 transition duration-300">
+            <button
+              onClick={() => navigate('/trends')}
+              className="text-white hover:text-gray-400 transition duration-300"
+            >
               Trends
-            </Link>
+            </button>
           </li>
           <li>
-            <Link to="/quiz" className="text-white hover:text-gray-400 transition duration-300">
+            <button
+              onClick={() => navigate('/quiz')}
+              className="text-white hover:text-gray-400 transition duration-300"
+            >
               Quiz
-            </Link>
+            </button>
           </li>
         </ul>
       </div>

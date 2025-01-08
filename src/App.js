@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Periodic from "./components/Periodic";
 import Lanthanoids from "./components/Lanthanoids";
@@ -11,15 +12,19 @@ import Quiz from "./components/Quiz";
 function App() {
   return (
     <div className="flex flex-col" style={{ position: "relative", zIndex: 0 }}>
-      <JSBackground />
-      <NavBar />
-      <div style={{ position: "relative", zIndex: 1 }}>
-        <Periodic />
-        <Quiz/>
-        <Lanthanoids />
-        <Actinoids />
-      </div>
-      <Trends />
+      <Router>
+        <JSBackground />
+        <NavBar />
+        <div style={{ position: "relative", zIndex: 1 }}>
+          <Routes>
+            <Route path="/" element={<Periodic />} />
+            <Route path="/quiz" element={<Quiz />} />
+            <Route path="/lanthanoids" element={<Lanthanoids />} />
+            <Route path="/actinoids" element={<Actinoids />} />
+            <Route path="/trends" element={<Trends />} />
+          </Routes>
+        </div>
+      </Router>
     </div>
   );
 }
