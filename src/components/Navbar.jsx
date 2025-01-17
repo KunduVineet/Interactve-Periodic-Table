@@ -39,6 +39,15 @@ const NavBar = () => {
               Quiz
             </button>
           </li>
+
+          <li>
+            <button
+              onClick={() => navigate('/login')}
+              className="text-white hover:text-gray-400 transition duration-300"
+            >
+              Login
+            </button>
+          </li>
         </ul>
       </div>
     </nav>
